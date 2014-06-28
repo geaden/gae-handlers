@@ -1,0 +1,4 @@
+.idea
+.coverage
+*.py[c~]
+.DS_Store

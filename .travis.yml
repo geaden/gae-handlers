@@ -1,0 +1,12 @@
+language: python
+
+python:
+- '2.7'
+
+before_script:
+- wget https://googleappengine.googlecode.com/files/google_appengine_1.8.9.zip -nv
+- unzip -q google_appengine_1.8.9.zip
+- sudo ln -s `pwd`/google_appengine/dev_appserver.py /usr/local/google_appengine
+
+install: pip install -r requirements.txt
+script: ./test.sh
