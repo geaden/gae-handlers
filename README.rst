@@ -68,7 +68,7 @@ For developers
 --------------
 
 Set up enviroinment (preferebly use `virtualenv`)
-Run tests by executin `./test.sh`
+Run tests by executing `./test.sh`
 To check coverage run `./coverage_run.sh`
 To see results run `./coverage_report.sh`
 
