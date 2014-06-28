@@ -1,7 +1,12 @@
 Google App Engine Base Handlers
 ===============================
 
-Base handlers for google app engine.
+.. image:: https://travis-ci.org/geaden/gae-handlers.svg?branch=master
+    :target: https://travis-ci.org/geaden/gae-handlers
+
+Base handlers for Google App Engine Python.
+
+Template engine Jinja2.
 
 Usage:
 
