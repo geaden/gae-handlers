@@ -4,15 +4,17 @@ Google App Engine Base Handlers
 .. image:: https://travis-ci.org/geaden/gae-handlers.svg?branch=master
     :target: https://travis-ci.org/geaden/gae-handlers
 
-Base handlers for Google App Engine Python.
+Base handlers for `Google App Engine <https://code.google.com/p/googleappengine/>`_.
 
-Template engine Jinja2.
+Template engine `Jinja2 <http://jinja.pocoo.org/docs/>`_.
 
 Usage:
 
+Clone it into your project by ``git clone <gae-handlers-repo> gae_handlers``, then:
+
 .. code-block:: python
 
-	from gae-handlers import BaseHandler
+	from gae_handlers.core import BaseHandler
 
 	class MainHandler(BaseHandler):
 		template_name = "index.html"
@@ -28,7 +30,7 @@ Prerequisites
 
 Provide additional configuration for your project by creating module conf
 
-Sample conf.py:
+Sample ``conf.py``:
 
 .. code-block:: python
 
@@ -63,7 +65,7 @@ Sample conf.py:
 	DEBUG = True
 
 	# Admin base url
-	ADMIN_BASE_URL = '/sd-admin/'
+	ADMIN_BASE_URL = '/admin/'
 
 	# Media url
 	MEDIA_URL = '/media/'
@@ -72,12 +74,12 @@ Sample conf.py:
 For developers
 --------------
 
-Set up enviroinment (preferebly use `virtualenv`)
-Run tests by executing `./test.sh`
-To check coverage run `./coverage_run.sh`
-To see results run `./coverage_report.sh`
+* Set up enviroinment (preferebly use `virtualenv`)
+* Run tests by executing ``./test.sh``
+* To check coverage run ``./coverage_run.sh``
+* To see results run ``./coverage_report.sh``
 
-Make sure you provide correct path to GAE `dev_appserver.py`
+Make sure you provide correct path to GAE ``dev_appserver.py``
 
 
 
